@@ -5,10 +5,10 @@ package com.spongepowered.community.events;
  *
  */
 public class PortalCreaeEvent extends Event{
-	private static final HandlerList handlers = new HandlerList();
+    private static final HandlerList handlers = new HandlerList();
 	
-	public PortalCreateEvent () {
-	}
+    public PortalCreateEvent () {
+    }
 
     public HandlerList getHandlers() {
         return handlers;
