@@ -1,4 +1,4 @@
-package com.spongepowered.community.events;
+package org.spongepowered.community.portalapi.events;
 
 /**
  * Called when a portal is added to a network

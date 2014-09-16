@@ -1,15 +1,15 @@
-package com.spongepowered.community.events;
+package org.spongepowered.community.portalapi.events;
 
 /**
- * Called when a portal is created
+ * Called when a player or entity activates a portal
  *
  */
-public class PortalCreaeEvent extends Event{
+public class PortalActivateEvent extends Event{
 	private static final HandlerList handlers = new HandlerList();
 	
-	public PortalCreateEvent () {
+	public PortalActivateEvent () {
 	}
-
+	
     public HandlerList getHandlers() {
         return handlers;
     }
