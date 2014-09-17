@@ -39,3 +39,4 @@ Icon
 # Compiled files and artifacts
 *.class
 *.jar
+/target/
